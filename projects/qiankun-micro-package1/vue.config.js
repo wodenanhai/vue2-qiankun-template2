@@ -1,7 +1,6 @@
 const {name} = require('./package');
 const port = 7001;
 module.exports = {
-    publicPath: './',
     lintOnSave: false,
     devServer: {
         port,
