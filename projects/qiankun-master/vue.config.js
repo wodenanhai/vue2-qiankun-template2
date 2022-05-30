@@ -1,6 +1,5 @@
 module.exports = {
-    publicPath: './',
-    lintOnSave: false,
+    transpileDependencies: true,
     devServer: {
         port: 7000
     }

@@ -1,10 +1,12 @@
 <template>
     <div class="qiankun-home-layout">
         <div class="title">
-            <micro-header></micro-header>
-            <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
-                <menu-tree v-for="(item,index) in menuList" :key="index" :menu="item"></menu-tree>
-            </el-menu>
+<!--            <micro-header></micro-header>-->
+            <!--            <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">-->
+            <!--                <menu-tree v-for="(item,index) in menuList" :key="index" :menu="item"></menu-tree>-->
+            <!--            </el-menu>-->
+            <el-button @click="ss">1</el-button>
+            <el-button @click="s">2</el-button>
         </div>
         <div class="container">
             <transition name="fade-transform" mode="out-in">
@@ -35,6 +37,14 @@ export default {
                     url: "/spa/qiankun-micro-package2",
                 }
             ],
+        }
+    },
+    methods: {
+        ss() {
+            this.$router.push("/spa/qiankun-micro-package1")
+        },
+        s() {
+            this.$router.push("/spa/qiankun-micro-package2")
         }
     }
 }
