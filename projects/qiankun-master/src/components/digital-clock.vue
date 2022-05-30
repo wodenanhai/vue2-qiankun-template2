@@ -48,7 +48,7 @@
     .digital-clock {
         display: flex;
         align-items: center;
-        color: white;
+        color: #000;
         font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
         .header-time {
             margin-right: 15px;

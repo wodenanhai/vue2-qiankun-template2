@@ -15,4 +15,4 @@ registerMicroApps([
         activeRule: getActiveRule('#/spa/qiankun-micro-package2'),
     },
 ]);
-start();
+// start();
