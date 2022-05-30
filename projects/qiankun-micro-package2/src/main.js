@@ -15,9 +15,9 @@ let instance = null;
 function render(props = {}) {
     const {container} = props;
     router = new VueRouter({
-        base: window.__POWERED_BY_QIANKUN__ ? "/qiankun-micro-package2/" : "/",
-        mode: "history",
-        routes
+        base: window.__POWERED_BY_QIANKUN__ ? '/qiankun-micro-package2/' : '/',
+        mode: 'history',
+        routes,
     });
     instance = new Vue({
         router,
@@ -38,8 +38,7 @@ export async function bootstrap() {
 // 生命周期 - 挂载后
 export async function mount(props) {
     console.log('[vue] props from main framework', props);
-    // 渲染
-    render()
+    render(props);
 }
 
 // 生命周期 - 解除挂载
