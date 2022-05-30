@@ -1,6 +1,6 @@
 <template>
     <div class="micro-header">
-        <div class="micro-title"><i>Mr ORANGE</i></div>
+        <div class="micro-title"><i>Mr ORANGE1</i></div>
         <digital-clock></digital-clock>
     </div>
 </template>
