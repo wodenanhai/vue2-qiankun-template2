@@ -4,7 +4,7 @@ import About from './../components/About'
 const routes = [
     {
         path: '/',
-        redirect: "/qiankun-micro-package2"
+        component: () => import('../views/index'),
     },
     {
         path: '/qiankun-micro-package2',

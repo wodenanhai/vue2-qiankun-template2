@@ -1,8 +1,8 @@
 const {name} = require('./package');
 const port = 7002;
 module.exports = {
-    publicPath: './',
     lintOnSave: false,
+    runtimeCompiler: true,
     devServer: {
         port,
         // 允许被主应用跨域fetch请求到

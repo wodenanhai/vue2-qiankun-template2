@@ -1,5 +1,6 @@
 module.exports = {
-    transpileDependencies: true,
+    runtimeCompiler: true,
+    lintOnSave: false,
     devServer: {
         port: 7000
     }
