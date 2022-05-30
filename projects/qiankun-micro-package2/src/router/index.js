@@ -1,19 +1,28 @@
 import Home from './../components/Home'
 import About from './../components/About'
 
-
 const routes = [
     {
         path: '/',
-        name: 'home',
-        component: Home,
+        redirect: "/qiankun-micro-package2"
     },
     {
-        path: '/about',
-        name: 'about',
-        component: About,
+        path: '/qiankun-micro-package2',
+        name: 'qiankun-micro-package2',
+        component: () => import('../views/index'),
+        // children: [
+        //     {
+        //         path: '/',
+        //         name: 'home',
+        //         component: Home,
+        //     },
+        //     {
+        //         path: '/about',
+        //         name: 'about',
+        //         component: About,
+        //     }
+        // ]
     }
 ];
 
-// 注意 不是导出router对象
 export default routes;
