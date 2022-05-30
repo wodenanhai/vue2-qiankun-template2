@@ -1,6 +1,6 @@
 <template>
     <div>
-        22222222
+     二
     </div>
 </template>
 

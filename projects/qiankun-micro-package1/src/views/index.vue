@@ -1,9 +1,6 @@
 <template>
     <div>
-        111111
-<!--        <el-link type="primary" @click="handleClick('/')">demo</el-link>-->
-<!--        <el-link type="primary" @click="handleClick('/about')">views</el-link>-->
-<!--        <router-view></router-view>-->
+        一
     </div>
 </template>
 
