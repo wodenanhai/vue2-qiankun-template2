@@ -28,11 +28,11 @@ export default {
                 {
                     name: "橙子",
                     index: "1",
-                    url: "/spa/firstApp",
+                    url: "/spa/qiankun-micro-package1",
                 }, {
                     name: "月亮",
                     index: "2",
-                    url: "/spa/secondApp",
+                    url: "/spa/qiankun-micro-package2",
                 }
             ],
         }
@@ -46,16 +46,10 @@ export default {
     
     .title {
         width: 100%;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        padding: 0 10px;
-        box-sizing: border-box;
     }
     
     .container {
         width: 100%;
-        height: calc(100% - 60px);
     }
 }
 </style>

@@ -1,8 +1,9 @@
 <template>
     <div>
-        <el-link type="primary" @click="handleClick('/')">demo</el-link>
-        <el-link type="primary" @click="handleClick('/about')">views</el-link>
-        <router-view></router-view>
+        111111
+<!--        <el-link type="primary" @click="handleClick('/')">demo</el-link>-->
+<!--        <el-link type="primary" @click="handleClick('/about')">views</el-link>-->
+<!--        <router-view></router-view>-->
     </div>
 </template>
 

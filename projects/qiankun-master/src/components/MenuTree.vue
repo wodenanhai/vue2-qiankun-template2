@@ -23,8 +23,7 @@
         },
         methods: {
             handleRoute(menu) {
-                // window.history.pushState(null, menu.url, menu.url)
-                this.$router.push("/spa/firstApp")
+                this.$router.push(menu.url)
             }
         }
     }
